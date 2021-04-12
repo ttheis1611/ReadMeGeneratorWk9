@@ -1,0 +1,22 @@
+{
+  "name": "readmegeneratorwk9",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](./readme-guide.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttheis1611/ReadMeGeneratorWk9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttheis1611/ReadMeGeneratorWk9/issues"
+  },
+  "homepage": "https://github.com/ttheis1611/ReadMeGeneratorWk9#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
