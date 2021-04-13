@@ -1,28 +1,28 @@
-# Duder
+# All the Great Ones
 
   ## Description
-  Some hot stuff here and really great too
+  The best ever project
 
   ## Table of Contents
-  no
+  stuff
 
   ## Installation
-  any
+  yep
 
   ## Usage
-  all
+  Usage
 
   ## Credits
-  everyone
+  Credits
 
   ## License 
-  MIT
+  Apache 2.0
 
   ## Badges 
-  none
+  yes
 
   ## Features
-  complete
+  no
 
   ## Contribution
   undefined

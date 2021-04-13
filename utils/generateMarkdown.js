@@ -2,6 +2,28 @@
 // If there is no license, return an empty string
 //function renderLicenseBadge(license) {}
 
+// creates license badge if license is chosen
+const addLicenseBadge = license => {
+  if (license) {
+      return `![${license} License](https://img.shields.io/badge/license-${license.split(' ').join('%20')}-blue)
+`;
+  } else {
+      return '';
+  }
+};
+
+// creates description section
+const createDescription = (title, description, link) => {
+  if (link) {
+      return `${description}
+          
+View the deployed page at [${title}](${link}).`;
+  } else {
+      return `${description}`;
+  }
+};
+
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 //function renderLicenseLink(license) {}
