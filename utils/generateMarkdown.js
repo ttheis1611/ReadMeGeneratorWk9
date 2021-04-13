@@ -14,6 +14,25 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## ${data.description}
+
+  ## ${data.tableOfContents}
+
+  ## ${data.installation}
+
+  ## ${data.usage}
+
+  ## ${data.credits}
+
+  ## ${data.license}
+
+  ## ${data.badges}
+
+  ## ${data.features}
+
+  ## ${data.contribution}
+
+  ## ${data.tests}
 `;
 }
 
