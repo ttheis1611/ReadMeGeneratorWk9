@@ -14,25 +14,35 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## ${data.description}
+  ## Description
+  ${data.description}
 
-  ## ${data.tableOfContents}
+  ## Table of Contents
+  ${data.tableOfContents}
 
-  ## ${data.installation}
+  ## Installation
+  ${data.installation}
 
-  ## ${data.usage}
+  ## Usage
+  ${data.usage}
 
-  ## ${data.credits}
+  ## Credits
+  ${data.credits}
 
-  ## ${data.license}
+  ## License 
+  ${data.license}
 
-  ## ${data.badges}
+  ## Badges 
+  ${data.badges}
 
-  ## ${data.features}
+  ## Features
+  ${data.features}
 
-  ## ${data.contribution}
+  ## Contribution
+  ${data.contribution}
 
-  ## ${data.tests}
+  ## Tests
+  ${data.tests}
 `;
 }
 

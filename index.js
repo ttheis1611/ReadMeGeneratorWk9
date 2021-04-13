@@ -80,17 +80,27 @@ const promptQuestions = () => {
             }
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'license',
-            message: 'Please add a license for your Project: (Required)',
+            message: 'Please provide license information.',
+            choices: ['MIT', 'GNU', 'Apache 2.0', 'ISC'],
+            default: 0,
+            // when: ({ contents }) => {
+            //     if (contents.indexOf('License') > -1) {
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // },
             validate: licenseInput => {
-                if(licenseInput) {
+                if (licenseInput) {
                     return true;
                 } else {
-                    console.log('Please enter licenses of Project!')
+                    console.log('Please provide license information!');
+                    return false;
                 }
             }
-        },
+        },     
         {
             type: 'input',
             name: 'badges',

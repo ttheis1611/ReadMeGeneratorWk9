@@ -1,21 +1,31 @@
-# Dude
+# Duder
 
-  ## the bestest ever anywhere anytime
+  ## Description
+  Some hot stuff here and really great too
 
-  ## none
+  ## Table of Contents
+  no
 
-  ## There isn't any
+  ## Installation
+  any
 
-  ## who needs usage
+  ## Usage
+  all
 
-  ## 1,2,3
+  ## Credits
+  everyone
 
-  ## MIT
+  ## License 
+  MIT
 
-  ## sure
+  ## Badges 
+  none
 
-  ## all of the features
+  ## Features
+  complete
 
-  ## undefined
+  ## Contribution
+  undefined
 
-  ## No
+  ## Tests
+  none
