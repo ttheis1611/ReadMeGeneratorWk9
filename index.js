@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
+const fs = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require('./utils/genMarkdown.md');
-const { writeFile, copyFile } = require('./utils/generateFile.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+//const { writeFile, copyFile } = require('./utils/generateFile.js');
 
 // TODO: Create an array of questions for user input
 const promptQuestions = () => {
@@ -26,12 +27,17 @@ const promptQuestions = () => {
 function init() {
     promptQuestions()
 
-// TODO: Create a function to write README file
+        // TODO: Create a function to write README file
         .then(data => {
             return generateMarkdown(data);
         })
         .then(pageMarkdown => {
-            return writeFile(pageMarkdown);
+            console.log(pageMarkdown);
+            fs.writeFile('ReadMe.md', pageMarkdown, err => {
+                if (err) throw err;
+
+                console.log('Portfolio complete! Check out index.html to see the output!');
+            });
         })
         .catch(err => {
             console.log(err);
