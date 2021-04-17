@@ -31,7 +31,7 @@ Question Input
 
 
 ## Contributing
-none
+Be kind to each other
   
 ## Credits
 * [Kelly Gowing](kelly.a.gowing@gmail.com)
@@ -43,7 +43,7 @@ none
 ## Tests
 To run tests on the application, install
 ```
-noe at this time
+No TESTS at this time
 ```
 and run `npm run test` from the command line.
   
