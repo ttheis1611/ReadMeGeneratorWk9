@@ -69,7 +69,7 @@ ${shot.screenshotDesc}
 
   return `${allScreenshots}`;
   } else {
-      return '';
+      return `![${shot.screenshotAlt}](${shot.screenshotLink})`;
   }
 };
 

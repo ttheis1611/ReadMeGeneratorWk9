@@ -1,9 +1,9 @@
-# sdf
-[![Issues](https://img.shields.io/github/issues/ert/dfg)](https://github.com/ert/dfg/issues) [![Issues](https://img.shields.io/github/contributors/ert/dfg)](https://github.com/ert/dfg/graphs/contributors) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
+# README Generator
+[![Issues](https://img.shields.io/github/issues/ttheis1611/ReadMeGeneratorWk9)](https://github.com/ttheis1611/ReadMeGeneratorWk9/issues) [![Issues](https://img.shields.io/github/contributors/ttheis1611/ReadMeGeneratorWk9)](https://github.com/ttheis1611/ReadMeGeneratorWk9/graphs/contributors) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
 
 ## Description
-dfg
+This is a readme generator using node inquirer 
 
 ## Contents
 * [Installation](#installation)
@@ -19,34 +19,37 @@ dfg
 ## Installation
 This application needs to install: 
 ```
-er
+To use this tool, you will need to install npm inquirer
 ```
   
 ## Usage
-dfg 
+node 
   
 ### Screenshots
-![dfg](dfg)
-dfg
+![ScreenShot](./assets/images/ScriptScreenSht.png)
+Question Input
 
 
 ## Contributing
-dfg
+none
   
 ## Credits
-* [dfgdf](dfg)
+* [Kelly Gowing](kelly.a.gowing@gmail.com)
+* [Milla Decker](https://github.com/deckiedevs/readme-generator)
+* [Terry Theis](https://github.com/ttheis1611/ReadMeGeneratorWk9)
+* [UTA Starter Code](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-BO-FSF)
 
   
 ## Tests
 To run tests on the application, install
 ```
-dfg
+noe at this time
 ```
 and run `npm run test` from the command line.
   
 ## Questions
-Created by ert. 
-      If you have any questions about this repo, please contact me at dfg.
+Created by ttheis1611. 
+      If you have any questions about this repo, please contact me at tltheis@prodigy.net.
   
 ## License
 This application is covered under MIT.
